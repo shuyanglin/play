@@ -5,7 +5,7 @@ function setSectionHeight() {
 	// console.log("windowWidth: "+windowHeight);
 	// console.log("overlay width: "+windowHeight);
 
-	var aboutHeight = parseInt($("#about article").css("height"), 10)+600;
+	var aboutHeight = parseInt($("#about article").css("height"), 10);
 	var aug_Height = parseInt($("#augmentation-spa article").css("height"), 10)+300;
 	var car_Height = parseInt($("#caring-machines article").css("height"), 10)+300;
 	var uae_Height = parseInt($("#uae-hypermind article").css("height"), 10)+300;
@@ -16,57 +16,62 @@ function setSectionHeight() {
 
 	if(windowWidth > windowHeight)
 	{
-		$("#cover").css({
-			"background": "none",
-			"width" : windowWidth,
-			"min-height" : windowHeight+10+"px",
-		});
-		
-		$(".overlay").css({
-			"width" : windowWidth,
-			"height" : windowHeight,
-		});
-		
 
-		$("#about").css("height", aboutHeight);
+		if(windowHeight < 700 ){
+			// alert(windowWidth);
+			$("#about").css("height", aboutHeight+1000+"px");
 
-	
-		$('#augmentation-spa').css({
-			"height" : aug_Height,
-			"width" : windowWidth,
-		});
+		}{
+				$("#cover").css({
+					"background": "none",
+					"width" : windowWidth,
+					"min-height" : windowHeight+10+"px",
+				});
+				
+				$(".overlay").css({
+					"width" : windowWidth,
+					"height" : windowHeight,
+				});
+				
 
-		$('#caring-machines').css({
-			"height" : car_Height,
-			"width" : windowWidth,
-		});
+				$("#about").css("height", aboutHeight+700+"px");
+			
+				$('#augmentation-spa').css({
+					"height" : aug_Height,
+					"width" : windowWidth,
+				});
 
-		$('#uae-hypermind').css({
-			"height" : uae_Height,
-			"width" : windowWidth,
-		});				
+				$('#caring-machines').css({
+					"height" : car_Height,
+					"width" : windowWidth,
+				});
 
-		$('#registration-form').css({
-			"height" : evn_Height,
-			"width" : windowWidth,
-		});		
+				$('#uae-hypermind').css({
+					"height" : uae_Height,
+					"width" : windowWidth,
+				});				
 
-		$('#registration-form #eventzilla-iframe').css({
-			"top" : "100px",
-			"height" : evn_Height,
-			"width" : windowWidth,
-		});	
+				$('#registration-form').css({
+					"height" : evn_Height,
+					"width" : windowWidth,
+				});		
+
+				$('#registration-form #eventzilla-iframe').css({
+					"top" : "100px",
+					"height" : evn_Height,
+					"width" : windowWidth,
+				});	
 
 
-		
-		$('#museum-tour').css({
-			"height" : mus_Height,
-		});
+				
+				$('#museum-tour').css({
+					"height" : mus_Height,
+				});
 
-		$('#map').css({
-			"height" : windowHeight,
-		});
-
+				$('#map').css({
+					"height" : windowHeight,
+				});
+		}
 	}else{
 
 

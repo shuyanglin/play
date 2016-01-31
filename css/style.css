@@ -608,7 +608,7 @@ body{
       background-size: cover;
 	  margin: 0 auto; 
 	  position: absolute; 
-	  border: 2px solid lightgreen;
+	  /*border: 2px solid lightgreen;*/
     }
 
     #cover article{      
@@ -764,6 +764,124 @@ body{
 	}
 
 
+
+	#augmentation-spa{
+		height: 100%;
+		display: block;
+		/*position: absolute;*/
+	}
+
+	#about { 
+	  /*background: url(../images/S1.jpg) 50% 0 repeat fixed; min-height: 1000px; */
+/*	  background-color: white;
+	  margin: 0 auto; 
+	  width: 100%; 
+	  height: 100%;
+	  position: relative; */
+	  /*border: 10px solid lightgreen;*/
+	}
+	 
+/*	#registration-form{
+		display: none;
+		width: 100%;
+		height: 100%;
+		margin: auto 0;
+		position: relative;
+		margin: 0 auto; 
+		min-height: 140px;
+	}*/
+
+
+	#registration-form{
+	  background-color: white;
+	  /*border: 3px green dashed;*/
+	  margin: 0 auto; 
+	  width: 100%; 
+	  padding-top: 2%; 
+	}
+
+
+	#registration-form .top{
+		/*border: 10px solid lightgreen;*/
+		width: 700px;
+		margin: 0 auto; 
+		min-height: 110px;
+	}
+
+	#registration-form .top div:lang(en){
+
+		width: 35%;
+	  	margin: 0px 0%;
+	  	text-align: left;
+	  	float: left;
+	  	font-size: 1.1em;
+	}
+
+	#registration-form .top div:lang(ar){ 
+	     
+	      font-family: Greta Arabic Light, GretaArabicAR-Light, Greta Arabic Hairline, GretaArabicAR-Hairline;
+		  width: 35%;
+		  margin: 0px 0%;
+		  text-align: right;
+		  float: right;
+		  direction: rtl;
+		  font-size: 1.3em;
+		  position: relative;
+	}
+
+
+	#museum-tour { 
+	  /*background: url(../images/S1.jpg) 50% 0 repeat fixed; min-height: 1000px; */
+	  background-color: white;
+	  margin: 0 auto; 
+	  width: 100%; 
+	  position: relative; 
+	  /*border: 1px solid lightgreen;*/
+	}
+
+
+	#museum-tour article { 
+	  color: black;
+	  /*border: 1px lightblue solid;*/
+	  position: relative; 
+	  top: 50px; 
+	  width: 100%; 	
+	}
+
+	#museum-tour .top{
+		/*border: 1px solid lightgreen;		*/
+		margin: 0 auto; 
+		width: 700px;
+		min-height: 700px;
+	}
+
+
+	#museum-tour .top div:lang(en){
+		width: 35%;
+		float: left;
+	}
+
+	#museum-tour .top div:lang(ar){
+	    font-family: Greta Arabic Light, GretaArabicAR-Light, Greta Arabic Hairline, GretaArabicAR-Hairline;
+		width: 35%;
+		float: right;
+		direction: rtl;
+		font-size: 1.3em;
+	}
+
+	#about div:lang(en){ 
+	  float: left;
+	  font-size: 1.1em;
+	}
+
+	#about div:lang(ar){ 
+
+	  font-family: Greta Arabic Light, GretaArabicAR-Light, Greta Arabic Hairline, GretaArabicAR-Hairline;
+
+	  float: right;
+	  direction: rtl;
+	  font-size: 1.3em;
+	}
 }
 
 
