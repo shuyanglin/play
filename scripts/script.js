@@ -153,6 +153,10 @@ $(document).ready( function() {
 	setSectionHeight();
 
 
+
+
+
+	// scroll
 	var dashOffset = $(".path").css("stroke-dashoffset");
 	
 
@@ -185,6 +189,8 @@ $(document).ready( function() {
 
 	window.onresize = function(event) {
     setSectionHeight();
+    	console.log($("#about article").css("height"));
+	console.log($("#about").css("height"));
 	};
 
 });
