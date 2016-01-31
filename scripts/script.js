@@ -11,15 +11,16 @@ function setSectionHeight() {
 	var uae_Height = parseInt($("#uae-hypermind article").css("height"), 10)+300;
 	var evn_Height = parseInt($("#registration-form #eventzilla-iframe").css("height"),10)+600;
 	// var evn_Height_t = parseInt($("#registration-form").css("min-height"),10);
-	var mus_Height = parseInt($("#museum-tour article").css("height"), 10)+0;
+	var mus_Height = parseInt($("#museum-tour article").css("height"), 10);
 	// console.log(aboutHeight);
 
 	if(windowWidth > windowHeight)
 	{
 
 		if(windowHeight < 700 ){
-			// alert(windowWidth);
+			// alert(windowHeight);
 			$("#about").css("height", aboutHeight+1000+"px");
+			$('#museum-tour').css("height", aboutHeight+800+"px");
 
 		}{
 				$("#cover").css({
