@@ -30,7 +30,7 @@
 	<div>
 		<section class="title-frame 1" id="cover" data-type="background" data-speed="10">    
 
-			<div>
+			<div class="animation">
 					<svg version="1.1" id="1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 						 width="1281px" height="801px" viewBox="0 0 1281 801" enable-background="new 0 0 1281 801" xml:space="preserve">
 					<g>
@@ -1020,18 +1020,20 @@
 			<article>
 			
 
-				<div lang="en">
-					Join us for a sneak peak of the Museum of the Future, opening to the public for the first<br> time at the World Government Summit 2016.
-				</div>
-				<div lang="ar">
-					الانضمام إلينا لالتسلل الذروة من متحف المستقبل، وفتح للجمهور لأول مرة في قمة الحكومة 
-					<br>العالمية عام 2016.
+				<div class="top">
+					<div lang="en" class="en-left">
+						Join us for a sneak peak of the Museum of the Future, opening to the public for the first<br> time at the World Government Summit 2016.
+					</div>
+					<div lang="ar" class="ar-right">
+						الانضمام إلينا لالتسلل الذروة من متحف المستقبل، وفتح للجمهور لأول مرة في قمة الحكومة 
+						<br>العالمية عام 2016.
+					</div>
 				</div>
 				
 			</article>
-			<div>
+			
 			<div id="eventzilla-iframe"></div>
-			</div>
+		
 
 		</section>
 
@@ -1093,10 +1095,9 @@ $(document).ready(function(){
 
 	$('#tickets_titleRegister').empty();	
 
-	console.log($("#about article").css("height"));
-	console.log($("#about").css("height"));
+
 	// alert(window.innerWidth);
-	// alert(screen.width);
+	// alert(screen.height);
                 
    $('section[data-type="background"]').each(function(){
      var $bgobj = $(this); // assigning the object

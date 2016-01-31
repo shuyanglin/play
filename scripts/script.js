@@ -1,5 +1,3 @@
-
-;
 function setSectionHeight() {
 	var windowHeight = $(window).height();
 	var windowWidth = $(window).width();	
@@ -12,6 +10,7 @@ function setSectionHeight() {
 	var car_Height = parseInt($("#caring-machines article").css("height"), 10)+300;
 	var uae_Height = parseInt($("#uae-hypermind article").css("height"), 10)+300;
 	var evn_Height = parseInt($("#registration-form #eventzilla-iframe").css("height"),10)+500;
+	// var evn_Height_t = parseInt($("#registration-form").css("min-height"),10);
 	var mus_Height = parseInt($("#museum-tour article").css("height"), 10)+0;
 	// console.log(aboutHeight);
 
@@ -56,7 +55,9 @@ function setSectionHeight() {
 			"top" : "100px",
 			"height" : evn_Height,
 			"width" : windowWidth,
-		});		
+		});	
+
+
 		
 		$('#museum-tour').css({
 			"height" : mus_Height,
@@ -153,7 +154,15 @@ $(document).ready( function() {
 	setSectionHeight();
 
 
+	// setTimeout(function(){
+    		// alert(document.getElementById("eventzilla-iframe"));
+	// },3000);
 
+
+	 // alert(document.getElementById("eventzilla-iframe").height);
+	 // setTimeout(function(){
+  //   		 alert(document.getElementById("eventzilla-iframe").height);
+	 // },3000);
 
 
 	// scroll
@@ -188,9 +197,8 @@ $(document).ready( function() {
 	});
 
 	window.onresize = function(event) {
-    setSectionHeight();
-    	console.log($("#about article").css("height"));
-	console.log($("#about").css("height"));
+	    setSectionHeight();
+
 	};
 
 });

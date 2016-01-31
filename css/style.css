@@ -180,7 +180,7 @@ body{
 	 
 	#about article { 
 	  position: relative; 
-	  top: 50px; 
+	  margin: 50px auto; 
 	  width: 100%; 
 	  /*height: 100%;*/
 	  /*border: 1px solid green;*/
@@ -359,16 +359,54 @@ body{
 	  /*border: 3px green dashed;*/
 	  margin: 0 auto; 
 	  width: 100%; 
-	  padding-top: 100px;
-	  position: relative; 
+	  padding-top: 2%; 
 	}
 
-	#registration-form div{
+
+	#registration-form .top{
+		/*border: 10px solid lightgreen;*/
+		width: 1000px;
+		margin: 0 auto; 
+		min-height: 110px;
+	}
+
+	#registration-form .top div:lang(en){
+
+		width: 35%;
+	  	margin: 0px 0%;
+	  	text-align: left;
+	  	float: left;
+	  	font-size: 1.2em;
+	}
+
+	#registration-form .top div:lang(ar){ 
+	     
+	      font-family: Greta Arabic Light, GretaArabicAR-Light, Greta Arabic Hairline, GretaArabicAR-Hairline;
+		  width: 35%;
+		  margin: 0px 0%;
+		  text-align: right;
+		  float: right;
+		  direction: rtl;
+		  font-size: 1.5em;
+		  position: relative;
+	}
+
+
+
+	#registration-form #eventzilla-iframe{
+		/*position: relative;*/
+		width: 100%;
+		margin: 0 auto;
+	}
+
+
+
+	/*#registration-form div{
 		position: relative;
 	}
 
 	#registration-form article{ 
-		/*border: 1px solid lightgreen;*/
+		
 		width: 100%;
 		position: absolute;
 		text-align: center;
@@ -400,7 +438,7 @@ body{
 	  float: right;
 	  direction: rtl;
 	  font-size: 1.5em;
-	}
+	}*/
 
 	#museum-tour { 
 	  /*background: url(../images/S1.jpg) 50% 0 repeat fixed; min-height: 1000px; */
@@ -528,12 +566,33 @@ body{
   	body {
         /*background-color: lightblue;*/
     }
+
+    .animation{
+    	display: none;
+    }
+
     #cover { 
 	  margin: 0 auto; 
-	  height: 100%; 
-	  position: relative; 
-	  /*border: 1px solid red;*/
+	  position: absolute; 
+	  border: 1px solid red;
     }
+
+    #cover article{ 
+	  position: absolute; 
+	  top: 480px;
+	  text-align: center; 
+	  width: 100%; 
+	}
+
+	#cover article div { 
+		color: white;
+	}
+
+
+	#cover articldiv:lang(ar){
+		font-size: 70px;
+	}
+/*
 
     #cover article{ 
 	  position: absolute; 
@@ -547,7 +606,6 @@ body{
 	}
 
 
-
 	#cover article div:lang(ar){
 		font-size: 70px;
 	}
@@ -557,7 +615,7 @@ body{
 	}
 
 	#cover .registration{
-		/*border: 1px red solid;*/
+		
 		position: absolute; 
 		top: 850px;
 		text-align: center; 
@@ -572,16 +630,12 @@ body{
 		border-radius: 3px;
 	    text-decoration: none;
 
-		/* border: 1px white dashed;*/
-
-		/*margin-left: -50px;*/
-
 		font-size: 50px;
 		color: white;
 	}
 	
 	#cover .three_logos{
-		/*border: 1px red solid;*/
+		
 		position: absolute; 
 
 		top: 600px;
@@ -598,6 +652,10 @@ body{
 
 	}
 
+*/
+	#about{
+		display: none;
+	}
 }
 
 /* iPhone 5/5S Landscape */
@@ -648,6 +706,8 @@ body{
     #cover { 
 	  min-height: 1050px;
 	}
+
+
 }
 
 /* Desktop Screens (iMac) */
@@ -656,9 +716,13 @@ body{
         /*background-color: white;*/
     }
 
+
     #cover { 
 	  min-height: 2560px;
 	} 
+
+
+
 }
 
 
