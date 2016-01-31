@@ -1123,16 +1123,19 @@ $(document).ready(function(){
 
 
    	// load embed registration form
-    window.onload = function() {
-	var iframe = document.createElement('iframe');
+   	var iframe = document.createElement('iframe');
 	iframe.id="ifeventzilla";
 	iframe.style.width = "100%";
 	iframe.style.height = "100%";
 	iframe.frameBorder="0";
-	iframe.src = "https://www.eventzilla.net/web/event_embedd.aspx?EventID=2138838059";
+	iframe.src = "http://www.eventzilla.net/web/event_embedd.aspx?EventID=2138838059";
 	var evntzilladiv=document.getElementById('eventzilla-iframe');
 	evntzilladiv.appendChild(iframe);
-	};
+	iframe.onload="resizeIframe(this)";
+	
+	$('#ifeventzilla').on('load',function() {
+		// $(this).height( $(this).contents().find("body").height() ); // this will work when the site is running https
+	})
 
 	// //remove Register text
 	// var myElement = document.getElementById('ifeventzilla');
@@ -1186,7 +1189,7 @@ $(document).ready(function(){
 	      '<h1 id="firstHeading" class="firstHeading">Museum of the Future</h1>'+
 	      '<div id="bodyContent">'+
 	      '<p>at the World Government Summit</p>'+
-	      '<p>Get direction on <a href="https://www.google.com/maps/dir//Souk+Madinat+-+Madinat+Jumeirah+The+Arabian+Resort%D8%8C+Al+Sufouh+Rd+-+%D8%AF%D8%A8%D9%8A+-+United+Arab+Emirates%E2%80%AD/@25.1333526,55.1845128,17z/data=!4m12!1m3!3m2!1s0x3e5f4200f6a91439:0x6adea5eb9fc274b6!2sSouk+Madinat!4m7!1m0!1m5!1m1!1s0x3e5f4200f6a91439:0x6adea5eb9fc274b6!2m2!1d55.1867015!2d25.1333526?hl=en-US">'+
+	      '<p>Get direction on <a href="http://www.google.com/maps/dir//Souk+Madinat+-+Madinat+Jumeirah+The+Arabian+Resort%D8%8C+Al+Sufouh+Rd+-+%D8%AF%D8%A8%D9%8A+-+United+Arab+Emirates%E2%80%AD/@25.1333526,55.1845128,17z/data=!4m12!1m3!3m2!1s0x3e5f4200f6a91439:0x6adea5eb9fc274b6!2sSouk+Madinat!4m7!1m0!1m5!1m1!1s0x3e5f4200f6a91439:0x6adea5eb9fc274b6!2m2!1d55.1867015!2d25.1333526?hl=en-US">'+
 	      'Google Maps</a></p>'+
 	      '</div>'+
 	      '</div>';
@@ -1211,7 +1214,7 @@ $(document).ready(function(){
     </script>
 
     <script async defer
-      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDsUa7-Sdt7eV7DxMBFBNW7I0XnRDAImaQ&callback=initMap">
+      src="http://maps.googleapis.com/maps/api/js?key=AIzaSyDsUa7-Sdt7eV7DxMBFBNW7I0XnRDAImaQ&callback=initMap">
     </script>
 
     <!-- scroll to id -->

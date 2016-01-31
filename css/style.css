@@ -21,11 +21,13 @@ body{
 
 }
 
+h3#tickets_titleRegister {
+ display: none;
+}
+
 @media all{
 	
-	h3#tickets_titleRegister {
-	 display: none !important
-	}
+	
 	
 	/* cover */
 	
