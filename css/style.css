@@ -72,11 +72,11 @@ body{
 		font-family: Greta Arabic Hairline;
         font-family: GretaArabicAR-Hairline;	
         font-family: GretaArabicAR-Light;
-        font-family: GretaArabicAR-ExtraLight;
+        /*font-family: GretaArabicAR-ExtraLight;
         font-family: GretaArabicAR-Thin;
         font-family: GretaArabicAR-Medium;
         font-family: GretaArabicAR-Regular;
-        font-family: GretaArabicAR-SemiBold;
+        font-family: GretaArabicAR-SemiBold;*/
 	    
 	}
 
@@ -201,11 +201,11 @@ body{
       font-family: Greta Arabic Hairline;
       font-family: GretaArabicAR-Hairline;	
       font-family: GretaArabicAR-Light;
-      font-family: GretaArabicAR-ExtraLight;
+/*      font-family: GretaArabicAR-ExtraLight;
       font-family: GretaArabicAR-Thin;
       font-family: GretaArabicAR-Medium;
       font-family: GretaArabicAR-Regular;
-      font-family: GretaArabicAR-SemiBold;
+      font-family: GretaArabicAR-SemiBold;*/
 	  width: 30%;
 	  margin-right: 150px;
 	  float: right;
