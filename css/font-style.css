@@ -1,0 +1,85 @@
+
+@font-face {
+	font-family: "OLFSimpleSansA";
+	src: url("../fonts/OLFSimpleSansA/OLFSimpleSans-Regular_a.otf") format('otf');
+	src: url("../fonts/OLFSimpleSansA/OLFSimpleSans-Regular_a.ttf") format('truetype');
+	
+}
+
+@font-face {
+	font-family: "OLFSimpleSansA1";
+	src: url("../fonts/OLFSimpleSansA/OLFSimpleSans-Regular_a1.otf") format('otf');
+	src: url("../fonts/OLFSimpleSansA/OLFSimpleSans-Regular_a1.ttf") format('truetype');
+}
+
+@font-face {
+	font-family: "OLFSimpleSansA2";
+	src: url("../fonts/OLFSimpleSansA/OLFSimpleSans-Regular_a2.otf") format('otf');
+	src: url("../fonts/OLFSimpleSansA/OLFSimpleSans-Regular_a2.ttf") format('truetype');
+}
+
+@font-face {
+	font-family: "OLFSimpleSansA3";
+	src: url("../fonts/OLFSimpleSansA/OLFSimpleSans-Regular_a3.otf") format('otf');
+	src: url("../fonts/OLFSimpleSansA/OLFSimpleSans-Regular_a3.ttf") format('truetype');
+}
+
+
+@font-face {
+	font-family: "OLFSimpleSansFill";
+	src: url("../fonts/OLFSimpleSansA/OLFSimpleSans-Regular_aFill2.otf") format('opentype');
+	src: url("../fonts/OLFSimpleSansA/OLFSimpleSans-Regular_aFill2.ttf") format('truetype');
+}
+
+
+@font-face {
+	font-family: "GretaArabicAR-Hairline";
+	src: url("../fonts/Greta/GretaArabicAR-Hairline.otf") format('opentype');
+	/*src: url("../fonts/Greta/GretaArabicAR-Hairline.ttf") format('truetype');*/
+	
+}
+
+@font-face {
+	font-family: "GretaArabicAR-ExtraLight";
+	src: url("../fonts/Greta/GretaArabicAR-ExtraLight.otf") format('opentype');
+	/*src: url("../fonts/Greta/GretaArabicAR-ExtraLight.ttf") format('truetype');*/
+	
+}
+
+@font-face {
+	font-family: "GretaArabicAR-Light";
+	src: url("../fonts/Greta/GretaArabicAR-Light.otf") format('opentype');
+	/*src: url("../fonts/Greta/GretaArabicAR-Light.ttf") format('truetype');*/
+	
+}
+
+@font-face {
+	font-family: "GretaArabicAR-Thin";
+	src: url("../fonts/Greta/GretaArabicAR-Thin.otf") format('opentype');
+	/*src: url("../fonts/Greta/GretaArabicAR-Thin.ttf") format('truetype');*/
+	
+}
+
+@font-face {
+	font-family: "GretaArabicAR-Medium";
+	src: url("../fonts/Greta/GretaArabicAR-Medium.otf") format('opentype');
+	/*src: url("../fonts/Greta/GretaArabicAR-Medium.ttf") format('truetype');*/
+	
+}
+
+
+@font-face {
+	font-family: "GretaArabicAR-Regular";
+	src: url("../fonts/Greta/GretaArabicAR-Regular.otf") format('opentype');
+	/*src: url("../fonts/Greta/GretaArabicAR-Regular.ttf") format('truetype');*/
+	
+}
+
+@font-face {
+	font-family: "GretaArabicAR-SemiBold";
+	src: url("../fonts/Greta/GretaArabicAR-SemiBold.otf") format('opentype');
+	/*src: url("../fonts/Greta/GretaArabicAR-SemiBold.ttf") format('truetype');*/
+	
+}
+
+

@@ -1,0 +1,651 @@
+/*
+
+Retrieve the responsiveness setting from css-tricks:
+https://css-tricks.com/snippets/css/media-queries-for-standard-devices/
+
+*/
+
+body{
+	/*remove invisible spacing on top-left corner*/
+	margin: 0 auto; 
+	background-color: black;
+
+	font-family: Helvetica;	
+	font-family: "Lato";
+	font-family: "OLFSimpleSansA";	
+	font-family: "OLFSimpleSansA1";	
+	font-family: "OLFSimpleSansA2";	
+	font-family: "OLFSimpleSansA3";	
+	font-family: Arial;	
+	font-family: "OLFSimpleSansFill";
+
+}
+
+@media all{
+	
+	h3#tickets_titleRegister {
+	 display: none !important
+	}
+	
+	/* cover */
+	
+	#cover { 
+	  background: url(../images/cover.jpg) 50% 0 repeat fixed; 
+	  min-height: 768px; 
+	  background-size: cover;
+	  height: 1000px; 
+	  margin: 0 auto; 
+	  width: 100%; 
+	  max-width: 2560px; 
+	  position: relative; 
+	}
+
+	.slide-content{
+		position: absolute;
+		width: 100%;
+	}
+
+	.overlay{
+		position: fixed;
+		background-color: #000;
+		opacity: 0.7;
+		height: 100%;
+		
+	}
+
+	#cover article{ 
+	  /*border: 1px white solid;*/
+	  position: absolute; 
+	  top: 150px;
+	  text-align: center; 
+	  width: 100%; 
+	}
+
+	#cover article div { 
+		color: white;
+		font-size: 40px;
+	}
+
+	#cover article div:lang(ar){
+		color: white;
+		font-family: Greta Arabic Hairline, GretaArabicAR-Hairline;	
+		font-family: Greta Arabic Hairline;
+        font-family: GretaArabicAR-Hairline;	
+        font-family: GretaArabicAR-Light;
+        font-family: GretaArabicAR-ExtraLight;
+        font-family: GretaArabicAR-Thin;
+        font-family: GretaArabicAR-Medium;
+        font-family: GretaArabicAR-Regular;
+        font-family: GretaArabicAR-SemiBold;
+	    
+	}
+
+	#cover article div:lang(en){
+		color: white;
+		font-family: "OLFSimpleSansA", "Lato", Helvetica, sans-serif;
+		font-family: "Arial";
+		font-family: "OLFSimpleSansFill";
+	}
+
+	#cover article div:lang(en) .sub-title{
+		font-size: 25px;
+	}
+
+	.title-frame {
+		position: relative;
+		display: block;
+		float: left;
+		margin: 0;
+		padding: 0;
+		width: 100%;
+		height: 100%;
+		overflow: hidden;
+	}	 
+
+	#cover .three_logos{
+		position: absolute;
+		/*border: 1px red solid;*/
+		top: 350px;
+		text-align: center; 
+		width: 100%;
+
+
+	}
+
+	#cover .three_logos img{
+
+		/*width: 500px;*/
+		/*height: auto;*/
+		/*padding: 14px 25px;*/
+		/*background-color: #f44336;*/
+		/*border-radius: 3px;*/
+	    /*text-decoration: none;*/
+
+		/* border: 1px white dashed;*/
+
+		/*margin-left: -50px;*/
+
+		/*font-size: 20px;*/
+		/*color: white;*/
+	}
+
+	#cover .registration{
+		/*border: 1px red solid;*/
+		position: absolute; 
+		top: 550px;
+		text-align: center; 
+		width: 100%; 
+
+
+	}
+
+	#cover .registration a{
+
+		padding: 14px 25px;
+		background-color: #f44336;
+		border-radius: 3px;
+	    text-decoration: none;
+
+		/* border: 1px white dashed;*/
+
+		/*margin-left: -50px;*/
+
+		font-size: 20px;
+		color: white;
+	}
+
+	#cover .registration a:hover{
+		background-color: #d33225;
+	}	 
+
+	#cover .scroll_down{
+		position: absolute; 
+		color: white;
+		text-align: center; 
+		width: 100%;
+		top: 610px;
+	}
+
+	#cover .scroll_down img{
+
+		top: 100px;
+	}
+
+
+
+	/* slides */
+
+	#about { 
+	  /*background: url(../images/S1.jpg) 50% 0 repeat fixed; min-height: 1000px; */
+	  background-color: white;
+	  margin: 0 auto; 
+	  width: 100%; 
+	  position: relative; 
+	  /*border: 1px solid lightgreen;*/
+	}
+	 
+	#about article { 
+	  position: absolute; 
+	  top: 100px; 
+	  width: 100%; 
+	}
+
+	#about article div:lang(en){ 
+	  width: 30%;
+	  margin-left: 150px;
+	  float: left;
+	  font-size: 1.2em;
+	}
+
+	#about article div:lang(ar){ 
+      font-family: Greta Arabic Hairline;
+      font-family: GretaArabicAR-Hairline;	
+      font-family: GretaArabicAR-Light;
+      font-family: GretaArabicAR-ExtraLight;
+      font-family: GretaArabicAR-Thin;
+      font-family: GretaArabicAR-Medium;
+      font-family: GretaArabicAR-Regular;
+      font-family: GretaArabicAR-SemiBold;
+	  width: 30%;
+	  margin-right: 150px;
+	  float: right;
+	  direction: rtl;
+	  font-size: 1.6em;
+	  /*font-weight: bolder;*/
+	}
+
+	#augmentation-spa 	{ 
+	  /*background: url(../images/S1.jpg) 50% 0 repeat fixed; min-height: 1000px; */
+	  background-color: black;
+	  /*height: 1000px; */
+	  margin: 0 auto; 
+	  width: 100%; 
+	  /*max-width: 1920px; */
+	  position: relative; 
+	  text-align: center;
+	}
+
+	#augmentation-spa article{ 
+		/*border: 1px solid lightgreen;*/
+		width: 100%;
+		position: absolute;
+		text-align: center;
+		height: auto;
+	}
+
+	#augmentation-spa article div:lang(ar){ 
+	  font-family: Greta Arabic Hairline, GretaArabicAR-Hairline;	
+	  position: relative;
+	  top: 150px;
+	  width: 100%;
+	  color: white;
+	  direction: rtl;
+	  font-size: 50px;
+	  font-weight: bolder;
+	} 	
+
+	 
+	#augmentation-spa article div:lang(en){ 
+	  position: relative;
+	  top: 200px;
+	  font-size: 50px;
+	  width: 100%;
+	  text-align: center;
+	  color: white;
+	} 
+
+
+	#caring-machines { 
+	  /*background: url(../images/S1.jpg) 50% 0 repeat fixed; min-height: 1000px; */
+	  background-color: #222;
+	  /*height: 1000px; */
+	  margin: 0 auto; 
+	  width: 100%; 
+	  /*max-width: 1920px; */
+	  position: relative; 
+	  text-align: center;
+	}
+
+	#caring-machines article{ 
+		/*border: 1px solid lightgreen;*/
+		width: 100%;
+		position: absolute;
+		text-align: center;
+		height: auto;
+	}
+
+	#caring-machines article div:lang(ar){ 
+	  font-family: Greta Arabic Hairline, GretaArabicAR-Hairline;	
+	  position: relative;
+	  top: 150px;
+	  width: 100%;
+	  color: white;
+	  direction: rtl;
+	  font-size: 50px;
+	  font-weight: bolder;
+	} 	
+
+	 
+	#caring-machines article div:lang(en){ 
+	  position: relative;
+	  top: 200px;
+	  font-size: 50px;
+	  width: 100%;
+	  text-align: center;
+	  color: white;
+	} 
+
+	 
+	#uae-hypermind{ 
+	  background-color: black;
+	  /*height: 1000px; */
+	  margin: 0 auto; 
+	  width: 100%; 
+	  /*max-width: 1920px; */
+	  position: relative; 
+	  text-align: center;
+	}
+
+	#uae-hypermind article{ 
+		/*border: 1px solid lightgreen;*/
+		width: 100%;
+		position: absolute;
+		text-align: center;
+		height: auto;
+	}
+
+	#uae-hypermind article div:lang(ar){ 
+	  font-family: Greta Arabic Hairline, GretaArabicAR-Hairline;	
+	  position: relative;
+	  top: 150px;
+	  width: 100%;
+	  color: white;
+	  direction: rtl;
+	  font-size: 50px;
+	  font-weight: bolder;
+	} 	
+
+	 
+	#uae-hypermind article div:lang(en){ 
+	  position: relative;
+	  top: 200px;
+	  font-size: 50px;
+	  width: 100%;
+	  text-align: center;
+	  color: white;
+	} 
+
+
+	#registration-form{
+	  background-color: white;
+	  /*border: 3px green dashed;*/
+	  margin: 0 auto; 
+	  width: 100%; 
+	  padding-top: 100px;
+	  position: relative; 
+	}
+
+	#registration-form div{
+		position: relative;
+	}
+
+	#registration-form article{ 
+		/*border: 1px solid lightgreen;*/
+		width: 100%;
+		position: absolute;
+		text-align: center;
+		height: 50px 0;
+	}
+
+	#registration-form div #eventzilla-iframe{
+		width: 100%;
+		height: auto;
+		margin: 0 auto;
+		position: absolute;
+	}
+	
+	#registration-form article div:lang(en){ 
+	  width: 30%;
+	  height: auto;
+	  margin-left: 150px;
+	  text-align: left;
+	  float: left;
+	  font-size: 1.2em;
+	}
+
+	#registration-form article div:lang(ar){ 
+      font-family: Greta Arabic Hairline, GretaArabicAR-Hairline;	
+      font-weight: bolder;
+      height: auto;
+	  width: 30%;
+	  margin-right: 150px;
+	  text-align: right;
+	  float: right;
+	  direction: rtl;
+	  font-size: 1.5em;
+	}
+
+	#museum-tour { 
+	  /*background: url(../images/S1.jpg) 50% 0 repeat fixed; min-height: 1000px; */
+	  background-color: white;
+	  margin: 0 auto; 
+	  width: 100%; 
+	  position: relative; 
+	  /*border: 1px solid lightgreen;*/
+	}
+
+	#museum-tour article div { 
+		color: black;
+	}
+	 
+	#museum-tour article { 
+	  position: absolute; 
+	  top: 50px; 
+	  width: 100%; 	
+	  
+	  
+	}
+
+	#museum-tour article div:lang(en){ 
+	  width: 30%;
+	  margin-left: 150px;
+	  float: left;
+	}
+
+	#museum-tour article div:lang(ar){ 
+      font-family: Greta Arabic Hairline, GretaArabicAR-Hairline;	
+	  width: 30%;
+	  margin-right: 150px;
+	  float: right;
+	  direction: rtl;
+	  font-size: 1.4em;
+	  font-weight: bolder;
+	}
+
+	#museum-tour article div:lang(en) b{
+		
+	}
+
+
+	#map-section{
+	  background-color: #111;
+	  /*height: 1000px; */
+	  margin: 0 auto; 
+	  width: 100%; 
+	  /*max-width: 1920px; */
+	  position: relative; 
+	}
+	
+	#map-section #map{
+/*		padding: 100px; 
+		top: 300px;
+		height: 768px;*/
+	}
+
+}	
+
+/* iPhone 4/4S Portrait */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px)and (-webkit-min-device-pixel-ratio: 2)and (orientation: portrait) {
+	body {
+        /*background-color: red;*/
+    }
+
+    #cover, title-frame { 
+
+	  margin: 0 auto; 
+	  min-height: 500px; /*iPhone 4/4S screen height: 480px */
+	  height: 100%; 
+	  position: relative; 
+	  /*border: 1px solid lightgreen;*/
+    }    
+    
+    #cover article{ 
+	  position: absolute; 
+	  top: 600px;
+	  text-align: center; 
+	  width: 100%; 
+	}
+
+	#cover article div { 
+		color: white;
+		font-size: 45px;
+
+	}
+
+	#cover article div:lang(ar){
+		font-size: 95px;
+	}
+
+	#cover article div:lang(en){
+
+		font-size: 60px;
+	}
+}
+
+/* iPhone 4/4S Landscape */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px)and (-webkit-min-device-pixel-ratio: 2)and (orientation: landscape) {
+
+  	body {
+        /*background-color: yellow;*/
+    }
+
+    #cover { 
+	  margin: 0 auto; 
+	  height: 100%; 
+	  position: relative; 
+	  /*border: 1px solid lightgreen;*/
+    }
+
+    #cover article{ 
+	  position: absolute; 
+	  top: 250px;
+	  text-align: center; 
+	  width: 100%; 
+	}
+}
+
+
+
+/* iPhone 5/5S Portrait */
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+  	body {
+        /*background-color: lightblue;*/
+    }
+    #cover { 
+	  margin: 0 auto; 
+	  height: 100%; 
+	  position: relative; 
+	  /*border: 1px solid red;*/
+    }
+
+    #cover article{ 
+	  position: absolute; 
+	  top: 280px;
+	  text-align: center; 
+	  width: 100%; 
+	}
+
+	#cover article div { 
+		color: white;
+	}
+
+
+
+	#cover article div:lang(ar){
+		font-size: 70px;
+	}
+
+	#cover article div:lang(en) .sub-title{
+		font-size: 40px;
+	}
+
+	#cover .registration{
+		/*border: 1px red solid;*/
+		position: absolute; 
+		top: 850px;
+		text-align: center; 
+		width: 100%; 
+
+	}
+
+	#cover .registration a{
+
+		padding: 30px 70px;
+		background-color: #f44336;
+		border-radius: 3px;
+	    text-decoration: none;
+
+		/* border: 1px white dashed;*/
+
+		/*margin-left: -50px;*/
+
+		font-size: 50px;
+		color: white;
+	}
+	
+	#cover .three_logos{
+		/*border: 1px red solid;*/
+		position: absolute; 
+
+		top: 600px;
+		text-align: center; 
+		width: 100%;
+
+
+	}
+
+	#cover .three_logos img{
+
+		width: 600px;
+		height: auto;
+
+	}
+
+}
+
+/* iPhone 5/5S Landscape */
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+  	body {
+        /*background-color: lightgreen;*/
+    }
+
+    #cover { 
+
+	  margin: 0 auto; 
+	  min-height: 600px;  /* iPhone 5/5S screen height: 568px */
+	  height: 100%; 
+	  position: relative; 
+	  /*border: 1px solid lightgreen;*/
+    }
+
+    #cover article{ 
+	  position: absolute; 
+	  top: 30px;
+	  text-align: center; 
+	  width: 100%; 
+	}
+
+	div:lang(en){
+		color: red;
+
+	}	
+
+	#cover .three_logos{
+		/*border: 1px red solid;*/
+		position: absolute; 
+		top: 300px;
+		text-align: center; 
+		width: 100%;
+	}
+
+
+}
+
+
+
+/* Laptops Screens (MacBook) */
+@media screen and (min-device-width: 1200px) and (max-device-width: 1600px){ 
+	body {
+        /*background-color: orange;*/
+    }
+    #cover { 
+	  min-height: 1050px;
+	}
+}
+
+/* Desktop Screens (iMac) */
+@media screen and (min-device-width: 1600px) and (max-device-width: 2600px) and (-webkit-min-device-pixel-ratio: 1){ 
+	body {
+        /*background-color: white;*/
+    }
+
+    #cover { 
+	  min-height: 2560px;
+	} 
+}
+
+
+
+
+
+
