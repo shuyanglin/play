@@ -901,7 +901,7 @@ h3#tickets_titleRegister {
 		/*color: yellow;*/
 	}
     .animation{
-    	display: none;
+    	/*display: none;*/
     }
 }
 
@@ -912,7 +912,7 @@ h3#tickets_titleRegister {
     }
 
     .animation{
-    	display: none;
+    	/*display: none;*/
     }
 
     #cover { 
