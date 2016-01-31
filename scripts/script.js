@@ -7,7 +7,7 @@ function setSectionHeight() {
 	// console.log("windowWidth: "+windowHeight);
 	// console.log("overlay width: "+windowHeight);
 
-	var aboutHeight = parseInt($("#about article").css("height"), 10)+100;
+	var aboutHeight = parseInt($("#about article").css("height"), 10)+600;
 	var aug_Height = parseInt($("#augmentation-spa article").css("height"), 10)+300;
 	var car_Height = parseInt($("#caring-machines article").css("height"), 10)+300;
 	var uae_Height = parseInt($("#uae-hypermind article").css("height"), 10)+300;

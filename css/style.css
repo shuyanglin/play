@@ -48,7 +48,7 @@ body{
 	.overlay{
 		position: fixed;
 		background-color: #000;
-		opacity: 0.7;
+		opacity: 0.85;
 		height: 100%;
 		
 	}
@@ -178,22 +178,56 @@ body{
 	}
 	 
 	#about article { 
-	  position: absolute; 
-	  top: 100px; 
+	  position: relative; 
+	  top: 50px; 
 	  width: 100%; 
+	  border: 1px solid green;
 	}
 
-	#about article div:lang(en){ 
-	  width: 30%;
-	  margin-left: 150px;
+	.space{
+		width:100px;
+		margin-left: 100px;
+	}
+
+	#about .top{
+		margin: 10px 7%;
+		border: 1px solid blue;
+	}
+
+	#about .middle{
+		margin: 10px 7%;
+		border: 1px solid red;
+	}
+
+	#about .bottom{
+		margin: 10px 7%;
+		border: 2px solid blue;
+	}
+
+	#about .en-left{
+		float: left;
+		/*border: 1px solid pink;*/
+		width: 40%;
+		
+	}
+
+	#about .ar-right{
+		float: right;
+		/*border: 1px solid pink;*/
+		width: 40%;
+		
+	}
+
+
+	#about div:lang(en){ 
 	  float: left;
 	  font-size: 1.2em;
 	}
 
-	#about article div:lang(ar){ 
+	#about div:lang(ar){ 
+
 	  font-family: Greta Arabic Light, GretaArabicAR-Light, Greta Arabic Hairline, GretaArabicAR-Hairline;
-	  width: 30%;
-	  margin-right: 150px;
+
 	  float: right;
 	  direction: rtl;
 	  font-size: 1.6em;
@@ -232,7 +266,7 @@ body{
 	#augmentation-spa article div:lang(en){ 
 	  position: relative;
 	  top: 200px;
-	  font-size: 50px;
+	  font-size: 40px;
 	  width: 100%;
 	  text-align: center;
 	  color: white;
@@ -272,7 +306,7 @@ body{
 	#caring-machines article div:lang(en){ 
 	  position: relative;
 	  top: 200px;
-	  font-size: 50px;
+	  font-size: 40px;
 	  width: 100%;
 	  text-align: center;
 	  color: white;
@@ -311,7 +345,7 @@ body{
 	#uae-hypermind article div:lang(en){ 
 	  position: relative;
 	  top: 200px;
-	  font-size: 50px;
+	  font-size: 40px;
 	  width: 100%;
 	  text-align: center;
 	  color: white;
@@ -453,7 +487,7 @@ body{
 	}
 
 	#cover article div:lang(ar){
-		
+
 		font-size: 95px;
 	}
 
