@@ -899,7 +899,7 @@ body{
 		/*color: yellow;*/
 	}
     .animation{
-    	display: none;
+    	/*display: none;*/
     }
 }
 
@@ -910,7 +910,7 @@ body{
     }
 
     .animation{
-    	display: none;
+    	/*display: none;*/
     }
 
     #cover { 

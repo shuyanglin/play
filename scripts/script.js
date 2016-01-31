@@ -13,14 +13,14 @@ function setSectionHeight() {
 	// var evn_Height_t = parseInt($("#registration-form").css("min-height"),10);
 	var mus_Height = parseInt($("#museum-tour article").css("height"), 10);
 	// console.log(aboutHeight);
-
+	
 	if(windowWidth > windowHeight)
 	{
 
 		if(windowHeight < 700 ){
 			// alert(windowHeight);
 			$("#about").css("height", aboutHeight+1000+"px");
-			$('#museum-tour').css("height", aboutHeight+800+"px");
+			$('#museum-tour').css("height", mus_Height+800+"px");
 
 		}{
 				$("#cover").css({
@@ -53,12 +53,12 @@ function setSectionHeight() {
 				});				
 
 				$('#registration-form').css({
-					"height" : evn_Height,
+					// "height" : evn_Height,
 					"width" : windowWidth,
 				});		
 
 				$('#registration-form #eventzilla-iframe').css({
-					"top" : "100px",
+					// "top" : "100px",
 					"height" : evn_Height,
 					"width" : windowWidth,
 				});	
