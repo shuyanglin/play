@@ -376,7 +376,7 @@ body{
 	  	margin: 0px 0%;
 	  	text-align: left;
 	  	float: left;
-	  	font-size: 1.2em;
+	  	font-size: 1.1em;
 	}
 
 	#registration-form .top div:lang(ar){ 
@@ -387,17 +387,16 @@ body{
 		  text-align: right;
 		  float: right;
 		  direction: rtl;
-		  font-size: 1.5em;
+		  font-size: 1.3em;
 		  position: relative;
 	}
 
 
 
 	#registration-form #eventzilla-iframe{
-		/*position: relative;*/
-		width: 100%;
-		margin: 0 auto;
+
 	}
+
 
 
 
@@ -440,6 +439,7 @@ body{
 	  font-size: 1.5em;
 	}*/
 
+
 	#museum-tour { 
 	  /*background: url(../images/S1.jpg) 50% 0 repeat fixed; min-height: 1000px; */
 	  background-color: white;
@@ -449,18 +449,40 @@ body{
 	  /*border: 1px solid lightgreen;*/
 	}
 
-	#museum-tour article div { 
-		color: black;
-	}
-	 
+
 	#museum-tour article { 
-	  position: absolute; 
+	  color: black;
+	  /*border: 1px lightblue solid;*/
+	  position: relative; 
 	  top: 50px; 
 	  width: 100%; 	
-	  
-	  
 	}
 
+	#museum-tour .top{
+		/*border: 1px solid lightgreen;		*/
+		margin: 0 auto; 
+		width: 1000px;
+		min-height: 700px;
+	}
+
+
+	#museum-tour .top div:lang(en){
+		width: 35%;
+		float: left;
+	}
+
+	#museum-tour .top div:lang(ar){
+	    font-family: Greta Arabic Light, GretaArabicAR-Light, Greta Arabic Hairline, GretaArabicAR-Hairline;
+		width: 35%;
+		float: right;
+		direction: rtl;
+		font-size: 1.3em;
+	}
+
+	
+
+
+/*
 	#museum-tour article div:lang(en){ 
 	  width: 30%;
 	  margin-left: 150px;
@@ -475,10 +497,8 @@ body{
 	  direction: rtl;
 	  font-size: 1.4em;
 	}
+*/
 
-	#museum-tour article div:lang(en) b{
-		
-	}
 
 
 	#map-section{
@@ -497,6 +517,17 @@ body{
 	}
 
 }	
+
+
+@media screen (min-width: 990px){
+	#museum-tour .top{
+		width: 700px;
+	}
+
+	#registration-form .top{
+		width: 700px;
+	}
+}
 
 /* iPhone 4/4S Portrait */
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px)and (-webkit-min-device-pixel-ratio: 2)and (orientation: portrait) {
@@ -705,23 +736,54 @@ body{
     }
     #cover { 
 	  min-height: 1050px;
+
 	}
-
-
+	#cover article div:lang(en){
+		/*color: yellow;*/
+	}
+    .animation{
+    	display: none;
+    }
 }
 
 /* Desktop Screens (iMac) */
 @media screen and (min-device-width: 1600px) and (max-device-width: 2600px) and (-webkit-min-device-pixel-ratio: 1){ 
 	body {
-        /*background-color: white;*/
+        /*background-color: red;*/
     }
 
+    .animation{
+    	display: none;
+    }
 
     #cover { 
 	  min-height: 2560px;
 	} 
 
+	#cover article div:lang(en){
+		/*color: red;*/
+	}
 
+	#about div:lang(en){ 
+	  float: left;
+	  font-size: 1.1em;
+	}
+
+	#about div:lang(ar){ 
+
+	  font-family: Greta Arabic Light, GretaArabicAR-Light, Greta Arabic Hairline, GretaArabicAR-Hairline;
+
+	  float: right;
+	  direction: rtl;
+	  font-size: 1.4em;
+	}
+
+	#registration-form .top{
+		/*border: 10px solid lightgreen;*/
+		width: 1000px;
+		margin: 0 auto; 
+		min-height: 140px;
+	}
 
 }
 
