@@ -68,15 +68,8 @@ body{
 
 	#cover article div:lang(ar){
 		color: white;
-		font-family: Greta Arabic Hairline, GretaArabicAR-Hairline;	
-		font-family: Greta Arabic Hairline;
-        font-family: GretaArabicAR-Hairline;	
-        font-family: GretaArabicAR-Light;
-        /*font-family: GretaArabicAR-ExtraLight;
-        font-family: GretaArabicAR-Thin;
-        font-family: GretaArabicAR-Medium;
-        font-family: GretaArabicAR-Regular;
-        font-family: GretaArabicAR-SemiBold;*/
+        font-family: Greta Arabic Light, GretaArabicAR-Light, Greta Arabic Hairline, GretaArabicAR-Hairline;
+
 	    
 	}
 
@@ -198,20 +191,12 @@ body{
 	}
 
 	#about article div:lang(ar){ 
-      font-family: Greta Arabic Hairline;
-      font-family: GretaArabicAR-Hairline;	
-      font-family: GretaArabicAR-Light;
-/*      font-family: GretaArabicAR-ExtraLight;
-      font-family: GretaArabicAR-Thin;
-      font-family: GretaArabicAR-Medium;
-      font-family: GretaArabicAR-Regular;
-      font-family: GretaArabicAR-SemiBold;*/
+	  font-family: Greta Arabic Light, GretaArabicAR-Light, Greta Arabic Hairline, GretaArabicAR-Hairline;
 	  width: 30%;
 	  margin-right: 150px;
 	  float: right;
 	  direction: rtl;
 	  font-size: 1.6em;
-	  /*font-weight: bolder;*/
 	}
 
 	#augmentation-spa 	{ 
@@ -234,14 +219,13 @@ body{
 	}
 
 	#augmentation-spa article div:lang(ar){ 
-	  font-family: Greta Arabic Hairline, GretaArabicAR-Hairline;	
+	  font-family: Greta Arabic Light, GretaArabicAR-Light, Greta Arabic Hairline, GretaArabicAR-Hairline;
 	  position: relative;
 	  top: 150px;
 	  width: 100%;
 	  color: white;
 	  direction: rtl;
 	  font-size: 50px;
-	  font-weight: bolder;
 	} 	
 
 	 
@@ -282,7 +266,6 @@ body{
 	  color: white;
 	  direction: rtl;
 	  font-size: 50px;
-	  font-weight: bolder;
 	} 	
 
 	 
@@ -315,14 +298,13 @@ body{
 	}
 
 	#uae-hypermind article div:lang(ar){ 
-	  font-family: Greta Arabic Hairline, GretaArabicAR-Hairline;	
+	  font-family: Greta Arabic Light, GretaArabicAR-Light, Greta Arabic Hairline, GretaArabicAR-Hairline;
 	  position: relative;
 	  top: 150px;
 	  width: 100%;
 	  color: white;
 	  direction: rtl;
 	  font-size: 50px;
-	  font-weight: bolder;
 	} 	
 
 	 
@@ -374,8 +356,7 @@ body{
 	}
 
 	#registration-form article div:lang(ar){ 
-      font-family: Greta Arabic Hairline, GretaArabicAR-Hairline;	
-      font-weight: bolder;
+      font-family: Greta Arabic Light, GretaArabicAR-Light, Greta Arabic Hairline, GretaArabicAR-Hairline;
       height: auto;
 	  width: 30%;
 	  margin-right: 150px;
@@ -413,13 +394,12 @@ body{
 	}
 
 	#museum-tour article div:lang(ar){ 
-      font-family: Greta Arabic Hairline, GretaArabicAR-Hairline;	
+      font-family: Greta Arabic Light, GretaArabicAR-Light, Greta Arabic Hairline, GretaArabicAR-Hairline;
 	  width: 30%;
 	  margin-right: 150px;
 	  float: right;
 	  direction: rtl;
 	  font-size: 1.4em;
-	  font-weight: bolder;
 	}
 
 	#museum-tour article div:lang(en) b{
@@ -473,6 +453,7 @@ body{
 	}
 
 	#cover article div:lang(ar){
+		
 		font-size: 95px;
 	}
 
