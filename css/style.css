@@ -24,6 +24,9 @@ body{
 h3#tickets_titleRegister {
  display: none;
 }
+iframe#ifeventzilla {
+	height: 370px;
+}
 
 @media all{
 	

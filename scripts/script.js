@@ -9,7 +9,7 @@ function setSectionHeight() {
 	var aug_Height = parseInt($("#augmentation-spa article").css("height"), 10)+300;
 	var car_Height = parseInt($("#caring-machines article").css("height"), 10)+300;
 	var uae_Height = parseInt($("#uae-hypermind article").css("height"), 10)+300;
-	var evn_Height = parseInt($("#registration-form #eventzilla-iframe").css("height"),10)+600;
+	// var evn_Height = parseInt($("#registration-form #eventzilla-iframe").css("height"),10)+600;
 	// var evn_Height_t = parseInt($("#registration-form").css("min-height"),10);
 	var mus_Height = parseInt($("#museum-tour article").css("height"), 10);
 	// console.log(aboutHeight);
@@ -59,7 +59,7 @@ function setSectionHeight() {
 
 				$('#registration-form #eventzilla-iframe').css({
 					// "top" : "100px",
-					"height" : evn_Height,
+					// "height" : evn_Height,
 					"width" : windowWidth,
 				});	
 

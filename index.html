@@ -1126,12 +1126,10 @@ $(document).ready(function(){
    	var iframe = document.createElement('iframe');
 	iframe.id="ifeventzilla";
 	iframe.style.width = "100%";
-	iframe.style.height = "100%";
 	iframe.frameBorder="0";
 	iframe.src = "http://www.eventzilla.net/web/event_embedd.aspx?EventID=2138838059";
 	var evntzilladiv=document.getElementById('eventzilla-iframe');
 	evntzilladiv.appendChild(iframe);
-	iframe.onload="resizeIframe(this)";
 	
 	$('#ifeventzilla').on('load',function() {
 		// $(this).height( $(this).contents().find("body").height() ); // this will work when the site is running https
