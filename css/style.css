@@ -30,7 +30,7 @@ body{
 	/* cover */
 	
 	#cover { 
-	  background: url(../images/cover.jpg) 50% 0 repeat fixed; 
+	  
 	  min-height: 768px; 
 	  background-size: cover;
 	  height: 1000px; 
@@ -576,6 +576,7 @@ body{
     }
 
     #cover { 
+
 	  margin: 0 auto; 
 	  height: 100%; 
 	  position: relative; 
@@ -595,7 +596,7 @@ body{
 /* iPhone 5/5S Portrait */
 @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
   	body {
-        /*background-color: lightblue;*/
+        background-color: lightblue;
     }
 
     .animation{
@@ -603,25 +604,66 @@ body{
     }
 
     #cover { 
+      background: url(../images/cover.jpg) 50% 0 repeat fixed; 	
+      background-size: cover;
 	  margin: 0 auto; 
 	  position: absolute; 
-	  border: 1px solid red;
+	  border: 2px solid lightgreen;
     }
 
-    #cover article{ 
-	  position: absolute; 
-	  top: 480px;
+    #cover article{      
+	  position: relative; 
+	  top: 250px;
 	  text-align: center; 
 	  width: 100%; 
+	  color: white;
 	}
 
-	#cover article div { 
-		color: white;
+	#cover article div:lang(en){ 
+		font-size: 5em;
 	}
 
+	#cover article div:lang(en) .sub-title{ 
+		font-size: 0.7em;
+	}
 
-	#cover articldiv:lang(ar){
-		font-size: 70px;
+	#cover article div:lang(ar){
+		font-size: 7em;
+	}
+
+	#cover article div:lang(ar) .sub-title{
+		font-size: 0.8em;
+	}
+
+	#cover .three_logos img{
+		position: relative;
+		
+		top: 350px;
+		width: 90%;
+	}
+
+	#cover .registration{
+		display: none;
+	}
+
+	#cover .scroll_down{
+		display: none;
+	}
+
+	#about{
+
+	}
+
+	#registration-form{
+		display: none;
+	}
+
+	#mesuem-tour{
+		display: none;
+	}
+
+	#museum-tour .top{
+		display: none;
 	}
 /*
 
@@ -711,10 +753,7 @@ body{
 	  width: 100%; 
 	}
 
-	div:lang(en){
-		color: red;
 
-	}	
 
 	#cover .three_logos{
 		/*border: 1px red solid;*/
@@ -735,7 +774,7 @@ body{
         /*background-color: orange;*/
     }
     #cover { 
-	  min-height: 1050px;
+	  min-height: 750px;
 
 	}
 	#cover article div:lang(en){
