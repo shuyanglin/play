@@ -22,7 +22,7 @@ body{
 }
 
 h3#tickets_titleRegister {
- display: none;
+ 	display: none;
 }
 iframe#ifeventzilla {
 	height: 370px;
@@ -377,7 +377,7 @@ iframe#ifeventzilla {
 
 	#registration-form .top div:lang(en){
 
-		width: 35%;
+		width: 45%;
 	  	margin: 0px 0%;
 	  	text-align: left;
 	  	float: left;
@@ -387,7 +387,7 @@ iframe#ifeventzilla {
 	#registration-form .top div:lang(ar){ 
 	     
 	      font-family: Greta Arabic Light, GretaArabicAR-Light, Greta Arabic Hairline, GretaArabicAR-Hairline;
-		  width: 35%;
+		  width: 45%;
 		  margin: 0px 0%;
 		  text-align: right;
 		  float: right;
@@ -763,49 +763,24 @@ iframe#ifeventzilla {
 	#cover .three_logos{
 		/*border: 1px red solid;*/
 		position: absolute; 
-		top: 300px;
+		top: 250px;
 		text-align: center; 
 		width: 100%;
 	}
 
 
+	#cover .registration{
+		/*border: 1px red solid;*/
+		position: absolute; 
+		top: 450px;
 
+
+	}
 	#augmentation-spa{
 		height: 100%;
 		display: block;
 		/*position: absolute;*/
 	}
-
-	#about { 
-	  /*background: url(../images/S1.jpg) 50% 0 repeat fixed; min-height: 1000px; */
-/*	  background-color: white;
-	  margin: 0 auto; 
-	  width: 100%; 
-	  height: 100%;
-	  position: relative; */
-	  /*border: 10px solid lightgreen;*/
-	}
-	 
-/*	#registration-form{
-		display: none;
-		width: 100%;
-		height: 100%;
-		margin: auto 0;
-		position: relative;
-		margin: 0 auto; 
-		min-height: 140px;
-	}*/
-
-
-	#registration-form{
-	  background-color: white;
-	  /*border: 3px green dashed;*/
-	  margin: 0 auto; 
-	  width: 100%; 
-	  padding-top: 2%; 
-	}
-
-
 	#registration-form .top{
 		/*border: 10px solid lightgreen;*/
 		width: 700px;
@@ -815,7 +790,7 @@ iframe#ifeventzilla {
 
 	#registration-form .top div:lang(en){
 
-		width: 35%;
+		width: 45%;
 	  	margin: 0px 0%;
 	  	text-align: left;
 	  	float: left;
@@ -825,7 +800,7 @@ iframe#ifeventzilla {
 	#registration-form .top div:lang(ar){ 
 	     
 	      font-family: Greta Arabic Light, GretaArabicAR-Light, Greta Arabic Hairline, GretaArabicAR-Hairline;
-		  width: 35%;
+		  width: 45%;
 		  margin: 0px 0%;
 		  text-align: right;
 		  float: right;
@@ -851,6 +826,7 @@ iframe#ifeventzilla {
 	  position: relative; 
 	  top: 50px; 
 	  width: 100%; 	
+	  
 	}
 
 	#museum-tour .top{
@@ -862,13 +838,14 @@ iframe#ifeventzilla {
 
 
 	#museum-tour .top div:lang(en){
-		width: 35%;
+		width: 45%;
 		float: left;
+		font-size: 0.960em;
 	}
 
 	#museum-tour .top div:lang(ar){
 	    font-family: Greta Arabic Light, GretaArabicAR-Light, Greta Arabic Hairline, GretaArabicAR-Hairline;
-		width: 35%;
+		width: 45%;
 		float: right;
 		direction: rtl;
 		font-size: 1.3em;
