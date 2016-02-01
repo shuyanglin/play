@@ -243,6 +243,7 @@ iframe#ifeventzilla {
 	#augmentation-spa 	{ 
 	  /*background: url(../images/S1.jpg) 50% 0 repeat fixed; min-height: 1000px; */
 	  background-color: black;
+	  /*opacity: 0.8;*/
 	  /*height: 1000px; */
 	  margin: 0 auto; 
 	  width: 100%; 
@@ -281,6 +282,7 @@ iframe#ifeventzilla {
 
 
 	#caring-machines { 
+	  opacity: 0.6;	
 	  /*background: url(../images/S1.jpg) 50% 0 repeat fixed; min-height: 1000px; */
 	  background-color: #222;
 	  /*height: 1000px; */
@@ -321,6 +323,7 @@ iframe#ifeventzilla {
 
 	 
 	#uae-hypermind{ 
+	  /*opacity: 0.8;*/
 	  background-color: black;
 	  /*height: 1000px; */
 	  margin: 0 auto; 
