@@ -21,6 +21,10 @@ body{
 
 }
 
+b,em {
+	font-weight: normal;
+}
+
 h3#tickets_titleRegister {
  	display: none;
 }
